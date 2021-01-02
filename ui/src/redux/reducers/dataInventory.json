@@ -1,0 +1,59 @@
+{
+  "datasets": [
+    {
+      "uuid:": "0001",
+      "id": "ccle_cellline",
+      "data_type": "annotation",
+      "name": "CCLE Cell Line Sample Info",
+      "source_from": "depmap.org",
+      "version": "DepMap Public 20Q4 v2",
+      "public_dataset": "yes",
+      "description": {
+        "Primary Disease": 35,
+        "Lineages": 39
+      },
+      "file_location": "/data/annotations/sample_info.csv",
+      "date_added": "01/02/2001",
+      "person_added": "Daisy Flemming"
+    },
+    {
+      "uuid:": "0002",
+      "id": "ccle_cn",
+      "data_type": "data",
+      "name": "CCLE Copy Number",
+      "source_from": "depmap.org",
+      "version": "DepMap Public 20Q4 v2",
+      "public_dataset": "yes",
+      "row_annotation_id": "0001",
+      "description": {
+        "Genes": 27639,
+        "Cell LInes": 1745,
+        "Primary Disease": 35,
+        "Lineages": 38
+      },
+      "file_location": "/data/data_matrix/CCLE_gene_cn.csv",
+      "date_added": "01/02/2001",
+      "person_added": "Daisy Flemming"
+    },
+    {
+      "uuid:": "0003",
+      "id": "ccle_expr",
+      "data_type": "data",
+      "name": "CCLE RNASeq Expr",
+      "source_from": "depmap.org",
+      "version": "DepMap Public 20Q4 v2",
+      "public_dataset": "yes",
+      "datatype": "data",
+      "row_annotation_id": "0001",
+      "description": {
+        "Genes": 19182,
+        "Cell LInes": 1376,
+        "Primary Disease": 33,
+        "Lineages": 37
+      },
+      "file_location": "/data/data_matrix/CCLE_expression.csv",
+      "date_added": "01/02/2001",
+      "person_added": "Daisy Flemming"
+    }
+  ]
+}
